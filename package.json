@@ -1,0 +1,52 @@
+{
+  "name": "jr-transfer",
+  "version": "0.0.6",
+  "description": "日本换乘方案",
+  "main": "app",
+  "scripts": {
+    "dev": "npm run devClient & npm run devServer",
+    "devClient": "webpack --config webpack.conf.dev.js --progress --color --watch",
+    "devServer": "webpack-dev-server --config webpack.conf.dev.js --progress --color --inline --hot",
+    "prod": "webpack --config webpack.conf.prod.js --profile --progress --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuyezi/vue-frontend-framework.git"
+  },
+  "keywords": [
+    "es6",
+    "vue",
+    "vuex",
+    "webpack"
+  ],
+  "author": "jimmy | 673950957@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^12.0.0",
+    "vue-template-compiler": "^2.2.6",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-hot-middleware": "^2.18.0",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "vue": "^2.2.6",
+    "vue-router": "^2.5.2",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
