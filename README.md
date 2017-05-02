@@ -1,4 +1,4 @@
-## 日本JR换乘
+## 基于vue前端项目框架
 
 ## 初始化&启动项目
     1）git clone git@git.17usoft.com:wireless-newproduct/TC.Train.Transfer.JR.git yourdir
